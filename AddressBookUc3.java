@@ -73,8 +73,6 @@ if(dummy.contains(str3))
 {
 
 dummy=dummy.replace(str3,str4);
-//System.out.println("after updating value\n");
-//System.out.println(i);
 arrli.set(i,dummy);
 }
 }
@@ -83,7 +81,7 @@ arrli.set(i,dummy);
 
 
 //printing the entries
-System.out.println("Total entries before updating");
+System.out.println("Total entries \n");
 for(String i : arrli)
 System.out.println(i+"\n");
 
